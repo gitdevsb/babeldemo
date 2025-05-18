@@ -1,0 +1,19 @@
+{
+  "name": "babeldemo",
+  "version": "1.0.0",
+  "description": "babel demo",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "babel src/index.js -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7"
+  }
+}
